@@ -1,6 +1,17 @@
 # Laravel Recaptcha v3
 Laravel package for [Google Recaptcha v3](https://developers.google.com/recaptcha/docs/v3)
 
+## Fork Laravel 9 and 10
+Add this lines befores require in composer.json
+```json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pellu/recaptcha"
+        }
+    ],
+```
+And "pellu/recaptcha": "master", in require section
 
 ## Some of the features for Recaptcha:
 - Configurable and Customizable
