@@ -1,6 +1,6 @@
 <?php
 
-namespace Mostafaznv\Recaptcha;
+namespace Pellu\Recaptcha;
 
 use Illuminate\Support\ServiceProvider;
 

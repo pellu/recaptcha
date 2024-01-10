@@ -1,5 +1,5 @@
 {
-    "name": "mostafaznv/recaptcha",
+    "name": "pellu/recaptcha",
     "description": "Laravel package for Google Recaptcha v3",
     "keywords": [
         "recaptcha",
@@ -10,15 +10,17 @@
         "laravel 5",
         "laravel 6",
         "laravel 7",
-        "laravel 8",        
+        "laravel 8",
+        "laravel 9",
+        "laravel 10",        
         "packalyst",
-        "mostafaznv"
+        "pellu"
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/mostafaznv/recaptcha/issues",
-        "source": "https://github.com/mostafaznv/recaptcha",
-        "docs": "https://github.com/mostafaznv/recaptcha/blob/master/README.md"
+        "issues": "https://github.com/pellu/recaptcha/issues",
+        "source": "https://github.com/pellu/recaptcha",
+        "docs": "https://github.com/pellu/recaptcha/blob/master/README.md"
     },
     "authors": [
         {
@@ -29,23 +31,23 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.* || 7.* || 8.*",
+        "laravel/framework": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.* || 7.* || 9.* || 10.*",
         "guzzlehttp/guzzle": "6.* || 7.*"
     },
     "require-dev": {
     },
     "autoload": {
         "psr-4": {
-            "Mostafaznv\\Recaptcha\\": "src/"
+            "Pellu\\Recaptcha\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mostafaznv\\Recaptcha\\RecaptchaServiceProvider"
+                "Pellu\\Recaptcha\\RecaptchaServiceProvider"
             ],
             "aliases": {
-                "Recaptcha": "Mostafaznv\\Recaptcha\\Facades\\Recaptcha"
+                "Recaptcha": "Pellu\\Recaptcha\\Facades\\Recaptcha"
             }
         }
     }

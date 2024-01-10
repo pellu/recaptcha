@@ -1,14 +1,14 @@
 <?php
 
-namespace Mostafaznv\Recaptcha\Facades;
+namespace Pellu\Recaptcha\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Mostafaznv\Recaptcha\Recaptcha as RecaptchaInstance;
+use Pellu\Recaptcha\Recaptcha as RecaptchaInstance;
 
 /**
  * Recaptcha Facade
  *
- * @package Mostafaznv\Recaptcha\Facades
+ * @package Pellu\Recaptcha\Facades
  * @see RecaptchaInstance
  */
 class Recaptcha extends Facade
