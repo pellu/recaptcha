@@ -7,7 +7,8 @@ Add this lines befores require in composer.json
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/pellu/recaptcha"
+            "url": "https://github.com/pellu/recaptcha",
+"no-api": true
         }
     ],
 ```
