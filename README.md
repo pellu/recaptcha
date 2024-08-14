@@ -1,7 +1,7 @@
 # Laravel Recaptcha v3
 Laravel package for [Google Recaptcha v3](https://developers.google.com/recaptcha/docs/v3)
 
-## Fork Laravel 9 and 10
+## Fork Laravel 9, 10 and 11
 Add this lines befores require in composer.json
 ```json
     "repositories": [
