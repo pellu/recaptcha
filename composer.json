@@ -14,6 +14,7 @@
         "laravel 9",
         "laravel 10",
         "laravel 11",
+        "laravel 12",
         "packalyst",
         "pellu"
     ],
@@ -32,7 +33,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.* || 7.* || 8.* || 9.* || 10.* || 11.*",
+        "laravel/framework": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.* || 7.* || 8.* || 9.* || 10.* || 11.* || 12.*",
         "guzzlehttp/guzzle": "6.* || 7.*"
     },
     "require-dev": {
